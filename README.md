@@ -61,7 +61,7 @@ Feedback and contributions are always welcome and appreciated!
   - [ ] Test the code
 - [x] Maintain and beautify the README file
   - [ ] Complete the [dataset](#datasets) section
-  - [ ] Move repo to alexandra org.
+  - [x] Move repo to alexandra org.
   - [ ] Beautify and update the [Knowledge aquisition](#knowledge-acquisition) and the [typical-baseline-models](#typical-baseline-models) sections
 
 ## Foundation
