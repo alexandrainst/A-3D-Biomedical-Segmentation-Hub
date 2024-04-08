@@ -4,6 +4,8 @@
 data/
 wheels/
 *.whl
+*.vti
+*.vtk
 
 ### Django ###
 *.log
