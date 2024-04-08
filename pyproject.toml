@@ -44,7 +44,7 @@ tifffile = "^2023.12.9"
 git-filter-repo = "^2.38.0"
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.3.0"
+black = "^24.3.0"
 pre-commit = "^3.3.3"
 mypy = "^1.4.0"
 codespell = "^2.2.5"
