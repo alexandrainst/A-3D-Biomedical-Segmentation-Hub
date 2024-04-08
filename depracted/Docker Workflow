@@ -1,6 +1,0 @@
-Docker Workflow
-
-1) Building the Apps container image (requires Dockerfile)
-2) docker stop <id>
-3) docker rm <id>
-4) docker rm -rf <id>
