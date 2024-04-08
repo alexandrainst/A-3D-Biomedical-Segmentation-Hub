@@ -7,6 +7,19 @@ wheels/
 *.vti
 *.vtk
 
+.pre-commit-config.yaml
+
+.vscode/
+SegmentAnythingin3D/
+notebooks/
+scripts/
+
+# Poetry 
+poetry.lock
+pyproject.toml
+
+deprecated/
+
 ### Django ###
 *.log
 *.pot

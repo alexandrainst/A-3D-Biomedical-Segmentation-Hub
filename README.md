@@ -79,7 +79,7 @@ Feedback and contributions are welcome and appreciated!
   <p align="center">
     <img src="media/README/Semi-Automatic.gif" width=".75">
   </p>
-  <figcaption align="center"> In a 3D medical imaging application, a semi-automatic segmentation approach may involve using an algorithm, such as region growing or active contours, to generate an initial segmentation of a specific anatomical structure. The user then reviews the segmentation results and adjusts boundaries as needed, ensuring accurate representation of the structure.</figcaption>
+  <figcaption align="center"> oeIn a 3D medical imaging application, a semi-automatic segmentation approach may involve using an algorithm, such as region growing or active contours, to generate an initial segmentation of a specific anatomical structure. The user then reviews the segmentation results and adjusts boundaries as needed, ensuring accurate representation of the structure.</figcaption>
 </figure>
 
 ### Understanding Volumetric Synchrotron and Electron Microscopy Data
@@ -205,6 +205,7 @@ The following section portrays the summarized finding of the tested models on sy
 - [Biomedisa](https://biomedisa.info/)
 - [PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg/tree/release/2.6)
 - [TurtleSeg](https://www.medicalimageanalysis.com/software/turtleseg)
+- [Ilastik]()
 
 <!-- ## License
 
