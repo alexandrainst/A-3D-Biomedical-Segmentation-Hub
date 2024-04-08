@@ -4,6 +4,23 @@
 
 --- 
 
+## Table of Contents
+
+- [Basics](#basics)
+  - [Table of Contents](#table-of-contents)
+  - [3D Interactive Segmentation](#3d-interactive-segmentation)
+  - [3D Semi-automatic Segmentation](#3d-semi-automatic-segmentation)
+  - [Understanding Volumetric Synchrotron and Electron Microscopy Data](#understanding-volumetric-synchrotron-and-electron-microscopy-data)
+    - [Volumetric Data Overview](#volumetric-data-overview)
+    - [Synchrotron Tomography Data](#synchrotron-tomography-data)
+      - [Characteristics](#characteristics)
+    - [Electron Microscopy Data](#electron-microscopy-data)
+      - [Characteristics](#characteristics-1)
+    - [Differences from Conventional Volumetric Data](#differences-from-conventional-volumetric-data)
+  - [Resources for additional knowledge acquisition](#resources-for-additional-knowledge-acquisition)
+
+
+
 ## 3D Interactive Segmentation
 
 **Definition**: 3D interactive segmentation involves user interaction and manipulation to delineate object boundaries in a three-dimensional (3D) image or volume. The user actively participates in the segmentation process by providing input, such as drawing or editing regions of interest, to guide the segmentation algorithm.
@@ -46,7 +63,7 @@ Volumetric data refers to three-dimensional datasets representing information wi
 
 Synchrotron tomography is a powerful imaging technique utilized to capture detailed three-dimensional information about the internal structure of materials. It involves the use of synchrotron radiation—a highly intense and collimated beam of X-rays—to probe the sample.
 
-### Characteristics
+#### Characteristics
 
 - High resolution: Synchrotron tomography offers exceptionally high spatial resolution, enabling the visualization of fine details within the sample.
 - Penetrative ability: Synchrotron X-rays can penetrate dense materials, allowing for the examination of internal structures without the need for destructive sample preparation.

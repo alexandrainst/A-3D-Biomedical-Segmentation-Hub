@@ -89,11 +89,11 @@ The following section portrays the summarized finding of the tested models on sy
 
 | Title | Link |
 |---|---|
-| ScribblePrompt: Fast and Flexible Interactive Segmentation for Any Medical Image | [Report]() |
-| TomoSAM: a 3D Slicer extension using SAM for tomography segmentation | [Report]() |
-| DeepEdit: Deep Editable Learning for Interactive Segmentation of 3D Medical Images | [Report]() |
-| Seq2Link: an efficient and versatile solution for semi-automatic cell segmentation in 3D image stacks | [Report]() |
-| i3Deep: Efficient 3D interactive segmentation with the nnU-Net | [Report]() |
+| ScribblePrompt: Fast and Flexible Interactive Segmentation for Any Medical Image | [Report](reports/ScribblePrompt/README.md) |
+| TomoSAM: a 3D Slicer extension using SAM for tomography segmentation | [Report](reports/TomoSAM/README.md) |
+| DeepEdit: Deep Editable Learning for Interactive Segmentation of 3D Medical Images | [Report](reports/DeepEdit/README.md) |
+| Seq2Link: an efficient and versatile solution for semi-automatic cell segmentation in 3D image stacks | [Report](reports/Seq2Link/README.md) |
+| i3Deep: Efficient 3D interactive segmentation with the nnU-Net | [Report](reports/i3Deep/README.md) |
 
 ### Summary
 
