@@ -24,8 +24,7 @@
   - [Open Source Tooling (incl. GUI)](#open-source-tooling-incl-gui)
     - [Slicer 3D Plugins](#slicer-3d-plugins)
     - [Napari Plugins](#napari-plugins)
-  - [Closed Source Tooling](#closed-source-tooling)
-  - [Other](#other)
+    - [Other options](#other-options)
 
 
 ## Why "A 3D Biomedical Segmentation Hub"?
@@ -78,6 +77,7 @@ Feedback and contributions are welcome and appreciated!
 | 09/2022 | Understanding the Tricks of Deep Learning in Medical Image Segmentation: Challenges and Future Directions | Zhang, Dong-Ming et al. | [PDF](https://arxiv.org/pdf/2209.10307.pdf) | [GitHub](https://github.com/hust-linyi/MedISeg?utm_source=catalyzex.com) | :white_square_button: |
 | 06/2022 | Dynamic Linear Transformer for 3D Biomedical Image Segmentation | Zhang, Zheyu and Ulas Bagci | [PDF](https://arxiv.org/pdf/2206.00771.pdf) | [GitHub](https://github.com/freshman97/LinTransUNet) | :white_square_button: |
 | 02/2022 | Beyond automatic medical image segmentation - the spectrum between fully manual and fully automatic delineation | Trimpl, Michael Johann et al. | [PDF](https://iopscience.iop.org/article/10.1088/1361-6560/ac6d9c) | - | :white_square_button: |
+| 01/2021 | PaddleSeg: A High-Efficient Development Toolkit for Image Segmentation | Yi Liu, Lutao Chu et al. | [PDF](https://arxiv.org/abs/2101.06175) | - | :white_square_button: |
 
 > *A more detailed literature review for specifically applying SAM and it's variants for medical image segmentation can be found at the GitHub repository [SAM4MIS](https://github.com/YichiZhang98/SAM4MIS) from YichiZhang98.*
 
@@ -99,29 +99,30 @@ The following section portrays the summarized finding of the tested models on sy
 
 ## Open Source Tooling (incl. GUI)
 
+Some of the aforementioned papers offer plugins that enhance the functionality of popular 3D image segmentation tools like Slicer 3D and Napari for interactive 3D segmentation tasks. These plugins, along with alternative tools, are listed below. 
+
 ### Slicer 3D Plugins
 
-- [TomoSAM](https://github.com/fsemerar/SlicerTomoSAM) - (Segment Anything for tomography data)
-- [DeepEdit](https://github.com/Project-MONAI/MONAILabel/wiki/DeepEdit) - ()
-- [SAMM](https://github.com/bingogome/samm) - (Segment Any Medical Model)
-- [MedSAM-Lite](https://github.com/bowang-lab/MedSAMSlicer) - (Segment Anything in Medical Images)
+- [TomoSAM](https://github.com/fsemerar/SlicerTomoSAM) - Segment Anything for tomography data
+- [DeepEdit](https://github.com/Project-MONAI/MONAILabel/wiki/DeepEdit)
+- [SAMM](https://github.com/bingogome/samm) - Segment Any Medical Model
+- [MedSAM-Lite](https://github.com/bowang-lab/MedSAMSlicer) - Segment Anything in Medical Images
 
 ### Napari Plugins
 
-- [Segmenter](https://www.allencell.org/segmenter.html) - ()
-- [Seg2Link](https://github.com/WenChentao/Seg2Link) -()
+- [Segmenter](https://www.allencell.org/segmenter.html)
+- [Seg2Link](https://github.com/WenChentao/Seg2Link)
 
-## Closed Source Tooling
+<!-- ## Closed Source Tooling
 
 - [Webknossos](https://webknossos.org/)
-- [Dragonfly](https://www.theobjects.com/dragonfly/index.html)
+- [Dragonfly](https://www.theobjects.com/dragonfly/index.html) -->
 
-## Other
+### Other options
 
-- [Biomedisa](https://biomedisa.info/)
-- [PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg/tree/release/2.6)
-- [TurtleSeg](https://www.medicalimageanalysis.com/software/turtleseg)
-- [Ilastik]()
+- [Biomedisa](https://biomedisa.info/) - Biomedisa is a free and easy-to-use open-source application for segmenting large volumetric images, e.g. CT and MRI scans, developed at The Australian National University CTLab
+<!-- - [TurtleSeg](https://www.medicalimageanalysis.com/software/turtleseg) - -->
+- [Ilastik](https://www.ilastik.org/) - Ilastik is a simple, user-friendly tool for interactive image classification, segmentation and analysis
 
 <!-- ## License
 
