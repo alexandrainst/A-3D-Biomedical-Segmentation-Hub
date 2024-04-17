@@ -1,17 +1,10 @@
 # A 3D Biomedical Segmentation Hub
 
-<div style="text-align:center;">
-    <video autoplay controls style="width:75%;">
-        <source src="media/medsam.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</div>
 
-<div style="text-align:center;">
+https://github.com/alexandrainst/A-3D-Biomedical-Segmentation-Hub/assets/25990284/5cf068a8-d75a-457e-ab72-e1b2a7e5aceb
+
 
 **Note:** All credit for the sourced video goes to the original authors :arrow_right: [MedSAM](https://github.com/bowang-lab/MedSAM/tree/main).
-
-</div>
 
 <!-- 
 <figure>
