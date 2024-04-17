@@ -1,11 +1,25 @@
 # A 3D Biomedical Segmentation Hub
 
+<div style="text-align:center;">
+    <video autoplay controls style="width:75%;">
+        <source src="media/medsam.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<div style="text-align:center;">
+
+**Note:** All credit for the sourced video goes to the original authors :arrow_right: [MedSAM](https://github.com/bowang-lab/MedSAM/tree/main).
+
+</div>
+
+<!-- 
 <figure>
   <p align="center">
     <img src="media/README/horns.gif" width=".75">
   </p>
   <figcaption align="center">A collection of state-of-the-art resources for 3D (semi-)automatic interactive segmentation within the biomedical space</figcaption>
-</figure>
+</figure> -->
 
 ## Table of Contents
 
@@ -29,7 +43,7 @@
 
 ## Why "A 3D Biomedical Segmentation Hub"?
 
-This collection comprises papers and resources tailored for an internal project at the Alexandra Institute. Upon reassessment of its potential industry value, we've opted to open-source it, ensuring accessibility for all. The repository will remain actively maintained throughout the project's duration, continually updated with the latest advancements in the field, as time permits based on the priority of other projects.
+This collection comprises papers and resources tailored for an internal project at the [Alexandra Institute](https://alexandra.dk/). Upon reassessment of its potential industry value, we've opted to open-source it, ensuring accessibility for all. The repository will remain actively maintained throughout the project's duration, continually updated with the latest advancements in the field, as time permits based on the priority of other projects.
 
 ### Motivation
 
@@ -64,6 +78,8 @@ Feedback and contributions are welcome and appreciated!
 
 | Date |Title | Authors | Paper | Code | Tested |
 |---|---|---|---|---|---|
+|04/2024|MedSAM: Segment Anything in Medical Images | Jun Ma et al. | [PDF](https://arxiv.org/pdf/2304.12306v3.pdf) | [GitHub](https://github.com/bowang-lab/medsam) | :ballot_box_with_check: |
+|03/2024|SegVol: Universal and Interactive Volumetric Medical Image Segmentation | Yuxin Du et al. | [PDF](https://arxiv.org/pdf/2311.13385.pdf) | [GitHub](https://github.com/BAAI-DCAI/SegVol) | :white_square_button: |
 |03/2024|iSegFormer: Interactive Segmentation via Transformers with Application to 3D Knee MR Images | Qin Liu et al. | [PDF](https://arxiv.org/pdf/2112.11325.pdf) | [GitHub](https://github.com/uncbiag/iSegFormer) | :white_square_button: |
 | 12/2023 | ScribblePrompt: Fast and Flexible Interactive Segmentation for Any Medical Image | Hallee E. Wong et al. | [PDF](https://arxiv.org/pdf/2312.07381.pdf) | [Project Page](https://scribbleprompt.csail.mit.edu/) | :ballot_box_with_check: |
 | 07/2023 | SwinMM: Masked Multi-view with Swin Transformers for 3D Medical Image Segmentation | Wang, Yiqing et al. | [PDF](https://arxiv.org/pdf/2307.12591.pdf) | [GitHub](https://github.com/UCSC-VLAA/SwinMM/) | :white_square_button: |
@@ -71,13 +87,14 @@ Feedback and contributions are welcome and appreciated!
 |06/2023|TomoSAM: a 3D Slicer extension using SAM for tomography segmentation | Semeraro, Federico et al. | [PDF](https://arxiv.org/pdf/2306.08609.pdf) | [GitHub](https://github.com/fsemerar/SlicerTomoSAM) | :ballot_box_with_check: |
 |05/2023| DeepEdit: Deep Editable Learning for Interactive Segmentation of 3D Medical Images | Diaz-Pinto, Andrés et al. | [PDF](https://arxiv.org/abs/2305.10655) | [GitHub](https://github.com/Project-MONAI/MONAILabel?utm_source=catalyzex.com) | :ballot_box_with_check: |
 | 05/2023 |Seq2Link: an efficient and versatile solution for semi-automatic cell segmentation in 3D image stacks | Wen, Chentao et al. | [PDF](https://www.nature.com/articles/s41598-023-34232-6) | [GitHub](https://github.com/WenChentao/Seg2Link) | :ballot_box_with_check: |
-|04/2023|Segment Anything in 3D with NeRFs | Cen, Jiazhong et al. | [PDF](https://arxiv.org/pdf/2304.12308.pdf) | [GitHub](https://github.com/Jumpat/SegmentAnythingin3D) | :white_square_button: |
 |01/2023|Volumetric memory network for interactive medical image segmentation | Zhou, Tianfei et al. | [PDF](https://www.sciencedirect.com/science/article/pii/S1361841522002316) | [GitHub](https://github.com/0liliulei/Mem3D) | :white_square_button: |
 |XX/2022|i3Deep: Efficient 3D interactive segmentation with the nnU-Net | Gotkowski, Karol et al. | [PDF](https://openreview.net/pdf?id=R420Pr5vUj3) | [GitHub](https://github.com/Karol-G/i3Deep) | :ballot_box_with_check: |
 | 09/2022 | Understanding the Tricks of Deep Learning in Medical Image Segmentation: Challenges and Future Directions | Zhang, Dong-Ming et al. | [PDF](https://arxiv.org/pdf/2209.10307.pdf) | [GitHub](https://github.com/hust-linyi/MedISeg?utm_source=catalyzex.com) | :white_square_button: |
 | 06/2022 | Dynamic Linear Transformer for 3D Biomedical Image Segmentation | Zhang, Zheyu and Ulas Bagci | [PDF](https://arxiv.org/pdf/2206.00771.pdf) | [GitHub](https://github.com/freshman97/LinTransUNet) | :white_square_button: |
 | 02/2022 | Beyond automatic medical image segmentation - the spectrum between fully manual and fully automatic delineation | Trimpl, Michael Johann et al. | [PDF](https://iopscience.iop.org/article/10.1088/1361-6560/ac6d9c) | - | :white_square_button: |
 | 01/2021 | PaddleSeg: A High-Efficient Development Toolkit for Image Segmentation | Yi Liu, Lutao Chu et al. | [PDF](https://arxiv.org/abs/2101.06175) | - | :white_square_button: |
+
+<!-- |04/2023|Segment Anything in 3D with NeRFs | Cen, Jiazhong et al. | [PDF](https://arxiv.org/pdf/2304.12308.pdf) | [GitHub](https://github.com/Jumpat/SegmentAnythingin3D) | :white_square_button: | -->
 
 > *A more detailed literature review for specifically applying SAM and it's variants for medical image segmentation can be found at the GitHub repository [SAM4MIS](https://github.com/YichiZhang98/SAM4MIS) from YichiZhang98.*
 
@@ -89,6 +106,7 @@ The following section portrays the summarized finding of the tested models on sy
 
 | Title | Link |
 |---|---|
+| MedSAM: Segment Anything in Medical Images | [Report](reports/MedSAM/README.md) |
 | ScribblePrompt: Fast and Flexible Interactive Segmentation for Any Medical Image | [Report](reports/ScribblePrompt/README.md) |
 | TomoSAM: a 3D Slicer extension using SAM for tomography segmentation | [Report](reports/TomoSAM/README.md) |
 | DeepEdit: Deep Editable Learning for Interactive Segmentation of 3D Medical Images | [Report](reports/DeepEdit/README.md) |
